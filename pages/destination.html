@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0"
+      viewport-fit="cover"
+    />
+    <meta name="description" content="" />
+    <title>Frontend Mentor | Space tourism website</title>
+  </head>
+  <body class="fade">
+    <!-- skip to content  -->
+    <a href="#main" class="skip-to-content"></a>
+    <!-- Top Header and navigation -->
+    <header class="primary-header flex">
+      <div class="logo">
+        <img src="../assets/shared/logo.svg" alt=" space tourism logo" />
+      </div>
+      <button
+        class="mobile-navigation-toggle"
+        aria-controls="primary-navigation"
+        aria-expanded="false"
+      >
+        <span class="sr-only">Menu</span>
+      </button>
+      <nav>
+        <ul
+          id="primary-navigation"
+          data-visible="false"
+          class="flex primary-nav underline-indicators"
+        >
+          <li>
+            <a href="../index.html" class="uppercase text-white ls-2">
+              <span aria-hidden="true">00</span>Home
+            </a>
+          </li>
+          <li class="active">
+            <a href="./destination.html" class="uppercase text-white ls-2">
+              <span aria-hidden="true">01</span>Destination
+            </a>
+          </li>
+          <li>
+            <a href="./crew.html" class="uppercase text-white ls-2">
+              <span aria-hidden="true">02</span>Crew
+            </a>
+          </li>
+          <li>
+            <a href="./technology.html" class="uppercase text-white ls-2">
+              <span aria-hidden="true">03</span>Technology
+            </a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <main
+      id="main"
+      class="grid-container grid-container--destination flow"
+      style="--flow-space: 2rem"
+    >
+      <h1 class="numbered-title">
+        <span aria-hidden="true">01</span>Pick your destination
+      </h1>
+
+      <img
+        src="../assets/destination/image-moon.png"
+        id="image"
+        alt="Moon - Destination"
+      />
+
+      <div
+        class="flex underline-indicators tab-list"
+        role="tablist"
+        aria-label="destinations"
+      >
+        <button
+          aria-selected="true"
+          role="tab"
+          tabindex="0"
+          aria-controls="moon"
+          class="uppercase text-accent ff-sans-cond ls-2"
+        >
+          Moon
+        </button>
+        <button
+          aria-selected="false"
+          role="tab"
+          tabindex="-1"
+          aria-controls="mars"
+          class="uppercase text-accent ff-sans-cond ls-2"
+        >
+          mars
+        </button>
+        <button
+          aria-selected="false"
+          role="tab"
+          tabindex="-1"
+          aria-controls="europa"
+          class="uppercase text-accent ff-sans-cond ls-2"
+        >
+          Europa
+        </button>
+        <button
+          aria-selected="false"
+          role="tab"
+          tabindex="-1"
+          aria-controls="titan"
+          class="uppercase text-accent ff-sans-cond ls-2"
+        >
+          Titan
+        </button>
+      </div>
+
+      <article class="destination-info flow" tabindex="0" role="tabpanel">
+        <h2 id="name" class="fs-800 ff-serif uppercase fade">Moon</h2>
+        <p id="description" class="fade">
+          See our planet as you’ve never seen it before. A perfect relaxing trip
+          away to help regain perspective and come back refreshed. While you’re
+          there, take in some history by visiting the Luna 2 and Apollo 11
+          landing sites.
+        </p>
+
+        <div class="flex destination-meta">
+          <div class="fade">
+            <h3 class="fs-200 uppercase text-accent">Avg. distance</h3>
+            <p id="distance" class="ff-serif uppercase">384,400 km</p>
+          </div>
+          <div class="fade">
+            <h3 class="text-accent uppercase fs-200">Est. travel time</h3>
+            <p id="travel" class="ff-serif uppercase">3 days</p>
+          </div>
+        </div>
+      </article>
+    </main>
+
+    <script type="module" src="../js/main.js"></script>
+  </body>
+</html>

@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0"
+      viewport-fit="cover"
+    />
+    <meta name="description" content="" />
+    <title>Frontend Mentor | Space tourism website</title>
+  </head>
+  <body class="fade">
+    <!-- skip to content  -->
+    <a href="#main" class="skip-to-content"></a>
+    <!-- Top Header and navigation -->
+    <header class="primary-header flex">
+      <div class="logo">
+        <img src="./assets/shared/logo.svg" alt=" space tourism logo" />
+      </div>
+      <button
+        class="mobile-navigation-toggle"
+        aria-controls="primary-navigation"
+        aria-expanded="false"
+      >
+        <span class="sr-only">Menu</span>
+      </button>
+      <nav>
+        <ul
+          id="primary-navigation"
+          data-visible="false"
+          class="flex primary-nav underline-indicators"
+        >
+          <li class="active">
+            <a href="index.html" class="uppercase text-white ls-2">
+              <span aria-hidden="true">00</span>Home
+            </a>
+          </li>
+          <li>
+            <a
+              href="./pages/destination.html"
+              class="uppercase text-white ls-2"
+            >
+              <span aria-hidden="true">01</span>Destination
+            </a>
+          </li>
+          <li>
+            <a href="./pages/crew.html" class="uppercase text-white ls-2">
+              <span aria-hidden="true">02</span>Crew
+            </a>
+          </li>
+          <li>
+            <a href="./pages/technology.html" class="uppercase text-white ls-2">
+              <span aria-hidden="true">03</span>Technology
+            </a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <main id="main" class="grid-container grid-container--home">
+      <div>
+        <h1 class="uppercase ff-sans-cond text-accent fs-500 ls-1 fade">
+          So, you want to travel to
+          <span class="ff-serif fs-900 d-block text-white">Space</span>
+        </h1>
+        <p class="text-accent fade">
+          Let’s face it; if you want to go to space, you might as well genuinely
+          go to outer space and not hover kind of on the edge of it. Well sit
+          back, and relax because we’ll give you a truly out of this world
+          experience!
+        </p>
+      </div>
+
+      <div>
+        <a
+          href="./pages/destination.html"
+          class="large-button uppercase text-dark bg-white ff-serif fs-600"
+          >Explore</a
+        >
+      </div>
+    </main>
+
+    <script type="module" src="./js/main.js"></script>
+  </body>
+</html>
