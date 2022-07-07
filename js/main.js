@@ -1,11 +1,10 @@
 import "../css/style.css";
 // import data from "../data/data.json";
 
-let data = {};
-
 fetch("../data/data.json")
   .then((res) => res.json())
   .then((json) => {
+    let data = {};
     data = json;
 
     const tabList = document.querySelector("[role='tablist']");

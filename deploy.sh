@@ -14,4 +14,4 @@ git commit -m 'deploy'
 
 git push -u git@github.com:imadbg01/fem-space-tourism.git
 
-cd ~
+cd -
