@@ -929,3 +929,46 @@ body {
     transform: scale(1.05);
   }
 }
+
+/* ******************************** */
+/* Animation                       */
+/* ****************************** */
+
+.attribution {
+  position: fixed;
+  display: block;
+  bottom: 2.5rem;
+  left: 1.5rem;
+  height: 3rem;
+  width: 3rem;
+  border-radius: 100%;
+  cursor: pointer;
+  background-image: url(/logo.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+.attribution p {
+  position: fixed;
+  display: block;
+  bottom: 5rem;
+  left: 5rem;
+  background-color: rgb(175, 205, 250);
+  color: hsl(var(--clr-dark), 0.7);
+  padding: 0.8em 1.2em;
+  border-radius: 1rem;
+  transform: rotateX(90deg);
+  visibility: hidden;
+  transition: transform 450ms linear, visibility 449ms linear;
+}
+
+.attribution a {
+  text-decoration: none;
+  color: hsl(var(--clr-dark));
+}
+
+.attribution:hover p {
+  transform: rotateX(0);
+  visibility: visible;
+}

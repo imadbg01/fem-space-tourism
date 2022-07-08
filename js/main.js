@@ -157,19 +157,19 @@ function changeTapContent(e) {
     // console.log(pageFieldIds);
   } else if (pageLabel === "crew") {
     changeContent(pageFieldIds, objectCrewData);
-    console.log(objectCrewData);
-    console.log(pageFieldIds);
+    // console.log(objectCrewData);
+    // console.log(pageFieldIds);
   } else {
     changeTechnologyContent(pageFieldIds, objectData);
-    console.log(objectData);
+    // console.log(objectData);
   }
 }
 
 function changeContent(pageFieldIds, data) {
-  console.log("hello");
+  // console.log("hello");
   pageFieldIds.map((fieldId) => {
     const elementId = document.querySelector(`#${fieldId}`);
-    console.log(fieldId);
+    // console.log(fieldId);
     if (fieldId == "image") {
       elementId.setAttribute("src", data[fieldId]);
       elementId.setAttribute("alt", `${data.name}-${page}`);
