@@ -184,7 +184,7 @@ Imad bg - [@ImadBg4](https://twitter.com/ImadBg4)
 
 - email@email_client.com
 
-Project Link: [https://github.com/imadbg01/fem-space-tourism](https://github.com/imadbg01/fem-space-tourism)
+Solution Link: [frontendmentor](https://www.frontendmentor.io/solutions/space-travel-website-using-pure-css-and-js-1yMqpoo4AC)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
