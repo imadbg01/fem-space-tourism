@@ -6,12 +6,12 @@ function getImages(page, image) {
 }
 import destinationMoonImg from "../assets/destination/image-moon.png";
 import destinationMarsImg from "../assets/destination/image-mars.png";
-import descriptionEuropaImg from "/assets/destination/image-europa.png";
-import descriptionTitanImg from "/assets/destination/image-titan.png";
+import descriptionEuropaImg from "../assets/destination/image-europa.png";
+import descriptionTitanImg from "../assets/destination/image-titan.png";
 import crewDouglasImg from "../assets/crew/image-douglas-hurley.png";
-import crewMarkImg from "/assets/crew/image-mark-shuttleworth.png";
-import crewAnoushehImg from "/assets/crew/image-anousheh-ansari.png";
-import crewVictorImg from "/assets/crew/image-victor-glover.png";
+import crewMarkImg from "../assets/crew/image-mark-shuttleworth.png";
+import crewAnoushehImg from "../assets/crew/image-anousheh-ansari.png";
+import crewVictorImg from "../assets/crew/image-victor-glover.png";
 import techLaunchPortrait from "../assets/technology/image-launch-vehicle-portrait.jpg";
 import techLaunchLandscape from "../assets/technology/image-launch-vehicle-landscape.jpg";
 import techSpaceportPortrait from "../assets/technology/image-spaceport-portrait.jpg";
